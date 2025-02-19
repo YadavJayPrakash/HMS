@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+
+# Data for the bar chart
+categories = ['A', 'B', 'C', 'D']
+values = [10, 20, 15, 25]
+
+# Creating the bar chart
+plt.figure(figsize=(8, 5))
+plt.bar(categories, values, color='skyblue', edgecolor='black')
+
+# Adding labels and title
+plt.title('Bar Chart Example', fontsize=16)
+plt.xlabel('Categories', fontsize=12)
+plt.ylabel('Values', fontsize=12)
+
+# Displaying the plot
+plt.show()
